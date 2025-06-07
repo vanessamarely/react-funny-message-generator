@@ -126,3 +126,23 @@ JokeAPI: `https://v2.jokeapi.dev/joke/Any?type=single`
 *   Asegúrate de que no haya estilos conflictivos. Puedes dejarlo como viene por defecto con Vite si los estilos de `App.css` son suficientes para el `body` y `#root`.
 
 Por favor, genera el contenido de estos archivos (`index.html`, `src/components/MessageDisplay.jsx`, `src/App.jsx`, `src/App.css`).
+```
+
+## Consejos para Interactuar con un Asistente de IA (como este)
+
+Para obtener los mejores resultados al trabajar con un asistente de IA para tareas de codificación, considera los siguientes consejos:
+
+*   **Sé Específico y Claro:** Cuanto más detalladas y sin ambigüedades sean tus solicitudes, mejor podrá entenderte y ayudarte la IA. En lugar de "arregla este código", prueba con "esta función `xyz` en `archivo.js` debería hacer A, B y C, pero solo hace A y B. Creo que el problema podría estar en el bucle de la línea 10. ¿Puedes ayudarme a depurarlo?".
+*   **Proporciona Contexto:** Siempre dale a la IA el contexto relevante. Esto incluye:
+    *   El lenguaje de programación y los frameworks que estás utilizando.
+    *   El/los archivo(s) específico(s) en los que estás trabajando.
+    *   Fragmentos de código relevantes (especialmente si la IA no tiene acceso directo a tus archivos o si quieres centrarte en una parte concreta).
+    *   Mensajes de error (copia y pega el error completo).
+    *   Lo que ya has intentado.
+*   **Divide Tareas Complejas:** Si tienes una tarea grande o compleja, divídela en pasos más pequeños y manejables. Pide ayuda a la IA con un paso a la vez.
+*   **Itera y Refina:** La primera respuesta de una IA puede no ser perfecta. No dudes en pedir aclaraciones, sugerir modificaciones o señalar lo que aún falta o es incorrecto. Por ejemplo: "Es un buen comienzo, pero ¿puedes asegurarte también de que maneje el caso X?" o "El código que proporcionaste para `App.jsx` se ve bien, pero también necesito que actualices `style.css` para que coincida".
+*   **Especifica el Formato de Salida Deseado:** Si necesitas la salida en un formato particular (por ejemplo, una estructura de archivos específica, un cierto estilo de codificación, una lista de comandos), házselo saber a la IA.
+*   **Revisa y Prueba:** Siempre revisa el código o las sugerencias proporcionadas por una IA. Prueba el código a fondo para asegurarte de que funciona como se espera y no introduce nuevos problemas. La IA es una herramienta para ayudarte, no para reemplazar tu juicio.
+*   **Usa Archivos Adjuntos/Contexto de Archivos:** Si la plataforma de IA lo admite (como esta), proporciona los archivos relevantes o indica qué archivos están activos. Esto le da a la IA acceso directo a la versión más actualizada de tu código.
+*   **Declara tu Objetivo:** Explica claramente lo que intentas lograr en general. Esto ayuda a la IA a comprender el panorama general y ofrecer sugerencias más relevantes.
+*   **Sé Paciente:** A veces, especialmente con solicitudes complejas, la IA puede necesitar un poco más de intercambio para hacer las cosas bien.
